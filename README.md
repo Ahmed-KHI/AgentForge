@@ -1,6 +1,6 @@
 # 🚀 AgentForge - Visual AI Agent Builder
 
-Create sophisticated AI workflows without writing code! AgentForge provides an intuitive drag-and-drop interface for building intelligent agents that can analyze markets, process data, make decisions, and generate reports.
+Create AI workflows without writing code! AgentForge provides an intuitive drag-and-drop interface for building intelligent agents that can analyze markets, process data, make decisions, and generate reports.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.4.2-black)
 ![React](https://img.shields.io/badge/React-18.3.1-blue)
