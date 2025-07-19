@@ -23,7 +23,7 @@ Create sophisticated AI workflows without writing code! AgentForge provides an i
 ![demo gif](./public/demo.gif)
 
 ## 📎 Try it now
-https://agentforge.vercel.app
+https://agent-forge-iota.vercel.app
 
 ## 🌟 Star This Repo
 If this project helps you, please consider giving it a star 🌟
