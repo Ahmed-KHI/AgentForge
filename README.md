@@ -31,9 +31,6 @@ Create sophisticated AI workflows without writing code! AgentForge provides an i
 
 ## 🚀 Quick Start
 
-### **Try the Live Demo**
-👉 **[https://agent-forge-iota.vercel.app/](https://agent-forge-iota.vercel.app/)**
-
 ### **Run Locally**
 
 1. **Clone the repository**
