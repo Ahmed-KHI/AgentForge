@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for luxury feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #8b5cf6, #3b82f6);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #7c3aed, #2563eb);
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition: all 0.2s ease;
+}
+
+/* Custom glow effects */
+.glow-purple {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+}
+
+.glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+}
+
+/* React Flow custom styles */
+.react-flow__background {
+  background: linear-gradient(135deg, #111827 0%, #000000 100%);
+}
+
+.react-flow__controls {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+.react-flow__controls button {
+  background: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.react-flow__controls button:hover {
+  background: rgba(139, 92, 246, 0.2) !important;
+}
+
+.react-flow__minimap {
+  background: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 8px !important;
+}
+
+/* Custom edge styles */
+.react-flow__edge-path {
+  stroke-width: 3px !important;
+  filter: drop-shadow(0 0 6px rgba(139, 92, 246, 0.4));
+}
+
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke-dasharray: 5;
+  animation: dashdraw 0.5s linear infinite;
+}
+
+.react-flow__edge-text {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  fill: white !important;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+.react-flow__edge-textbg {
+  fill: rgba(0, 0, 0, 0.6) !important;
+  rx: 4 !important;
+}
+
+/* Animated background gradient */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(-45deg, #1f2937, #111827, #0f172a, #1e1b4b);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
